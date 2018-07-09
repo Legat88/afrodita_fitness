@@ -1,0 +1,72 @@
+.footer {
+  height: 77px;
+  background: #131415;
+  margin-top: -77px;
+}
+.logo__footer {
+  line-height: 76px;
+  text-align: center;
+}
+.container__footer {
+  position: relative;
+}
+.social {
+  height: 77px;
+  position: absolute;
+  margin-right: 20px;
+  top: 14px;
+  right: 0;
+  z-index: 1;
+
+}
+.social__desc {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.social__pics {
+  height: 20px;
+}
+.social__pic {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.social__vk {
+  display: inline-block;
+  background: url("/icons/socials_sprite.png") 0px 0 no-repeat;
+}
+.social__vk:hover {
+  background: url("/icons/socials_sprite.png") 0 bottom no-repeat;
+}
+.social__fb {
+  display: inline-block;
+  background: url("/icons/socials_sprite.png") -53px 0 no-repeat;
+}
+.social__fb:hover {
+  background: url("/icons/socials_sprite.png") -53px bottom no-repeat;
+}
+
+.social__google {
+  display: inline-block;
+  background: url("/icons/socials_sprite.png") -113px 0 no-repeat;
+}
+.social__google:hover {
+  background: url("/icons/socials_sprite.png") -113px bottom no-repeat;
+}
+
+.social__twitter {
+  display: inline-block;
+  background: url("/icons/socials_sprite.png") -166px 0 no-repeat;
+}
+.social__twitter:hover {
+  background: url("/icons/socials_sprite.png") -166px bottom no-repeat;
+}
+
+.social__mail {
+  display: inline-block;
+  background: url("/icons/socials_sprite.png") -230px 0 no-repeat;
+}
+.social__mail:hover {
+  background: url("/icons/socials_sprite.png") -230px bottom no-repeat;
+}

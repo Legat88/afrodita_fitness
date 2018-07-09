@@ -1,0 +1,32 @@
+.breadcrumbs {
+  margin-bottom: 24px;
+}
+.breadcrumbs__list {
+  list-style: none;
+  padding: 0;
+}
+.breadcrumbs__element {
+  display: inline-block;
+  vertical-align: middle;
+}
+.breadcrumbs__element .breadcrumbs__link {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  color: #f9ad5f;
+}
+.breadcrumbs__element::after {
+  content: "/";
+}
+.breadcrumbs__element:last-child::after {
+  content: "";
+}
+.breadcrumbs__element:hover .breadcrumbs__link {
+  color: #656464;
+  text-decoration: none;
+}
+.breadcrumbs__element:last-child .breadcrumbs__link {
+  color: #656464;
+  text-decoration: none;
+  cursor: text;
+}

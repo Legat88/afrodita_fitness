@@ -1,0 +1,57 @@
+.nav {
+  float: left;
+  width: 180px;
+}
+.nav__list {
+  padding: 0;
+  list-style: none;
+}
+.nav__item {
+  margin-bottom: 24px;
+}
+.nav__text {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  color: #f89513;
+}
+.nav__link {
+  text-decoration: none;
+}
+.nav__link:hover .nav__text {
+  color: #333434;
+}
+.nav__icon {
+  margin-right: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+.nav__icon_main {
+  background: url('/icons/main_icon.png') 0 0 no-repeat;
+}
+.nav__link_main:hover .nav__icon_main {
+  background: url('/icons/main_icon_hover.png') 0 0 no-repeat;
+}
+.nav__icon_services {
+  background: url('/icons/service_icon.png') 0 0 no-repeat;
+}
+.nav__link_services:hover .nav__icon_services {
+  background: url('/icons/service_icon_hover.png') 0 0 no-repeat;
+}
+.nav__icon_feed {
+  background: url('/icons/feed_icon.png') 0 0 no-repeat;
+}
+.nav__link_feed:hover .nav__icon_feed {
+  background: url('/icons/feed_icon_hover.png') 0 0 no-repeat;
+}
+/* .nav__icon_feed {
+  background: url('/icons/feed_icon_hover.png') 0 0 no-repeat;
+}
+.nav__link_feed>.nav__text {
+  color: #333434;
+} */

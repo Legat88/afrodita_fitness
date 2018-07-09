@@ -1,0 +1,51 @@
+.partners {
+  margin-bottom: 70px;
+}
+.partners__title {
+  font-size: 49px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 38px;
+}
+.partners__pics {
+  width: 700px;
+}
+.partners__row {
+  margin-top: 50px;
+}
+.partners__element {
+  width: 160px;
+  height: 70px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 110px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.partners__element .partners__pic_hue {
+  display: none;
+}
+.partners__element:hover .partners__pic {
+  display: none;
+}
+.partners__element:hover .partners__pic_hue {
+  display: block;
+}
+.partners__row {
+  font-size: 0;
+}
+.partners__row .partners__element:last-child {
+  margin-right: 0;
+}
+.partners__pic {
+  opacity: 0.7;
+}
+.partners__pic, .partners__pic_hue {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+

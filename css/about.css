@@ -1,0 +1,12 @@
+@import url("/css/common/fonts.css");
+@import url("/css/common/common.css");
+@import url("/css/common/normalize.css");
+
+@import url("/css/common/header.css");
+
+@import url("/css/common/nav.css");
+@import url("/css/about/maincontent.css");
+@import url("/css/about/partners.css");
+
+
+@import url("/css/common/footer.css");

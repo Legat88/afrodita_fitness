@@ -1,0 +1,69 @@
+@import url("/css/common/fonts.css");
+@import url("/css/common/common.css");
+@import url("/css/common/normalize.css");
+
+.wrapper {
+  max-height: 100%;
+}
+.wrapper::after {
+  display: none;
+  position: relative;
+}
+.background__gray {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background:rgba(0, 0, 0, 0.5);
+}
+.background__img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main {
+  position: absolute;
+  z-index: 2;
+  width: 172px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: fromLeft 1s cubic-bezier(.21,.77,.42,1.35) forwards;
+  -webkit-animation: fromLeft 1s cubic-bezier(.21,.77,.42,1.35) forwards;
+}
+.logo {
+  width: 160px;
+  margin-left: 6px;
+  margin-bottom: 40px;
+  
+}
+@keyframes  fromLeft {
+  from {
+    left: -20%;
+  }
+  to {
+    left: 50%;
+  }
+}
+.btn {
+  width: 172px;
+  height: 46px;
+  background: #000;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+  background: #f9ad5f;
+}
+
+
